@@ -1,0 +1,43 @@
+// settings 
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+img{
+    object-fit: contain;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+li,ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-link{
+    text-decoration:underline;
+}
+
+
+

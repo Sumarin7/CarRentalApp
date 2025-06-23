@@ -1,0 +1,158 @@
+[
+    {
+        "brand": "TOYOTA",
+        "model": "LAND CRUISER PRADO",
+        "year": 2018,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Business",
+        "price": {
+            "1_day": "от 12 000 ₽",
+            "3_days": "от 36 000 ₽"
+        },
+        "image": "../images/BD/business/car1.png"
+    },
+    {
+        "brand": "TOYOTA",
+        "model": "CAMRY SAFETY 3,5L",
+        "year": 2018,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Business",
+        "price": {
+            "1_day": "от 7 500 ₽",
+            "3_days": "от 22 500 ₽"
+        },
+        "image": "../images/BD/business/car2.png"
+    },
+    {
+        "brand": "TOYOTA",
+        "model": "CAMRY",
+        "year": 2021,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Business",
+        "price": {
+            "1_day": "от 7 500 ₽",
+            "3_days": "от 22 500 ₽"
+        },
+        "image": "../images/BD/business/car3.png"
+    },
+    {
+        "brand": "CHERY",
+        "model": "TIGGO 7 PRO MAX AWD",
+        "year": 2023,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Business",
+        "price": {
+            "1_day": "от 7 500 ₽",
+            "3_days": "от 22 500 ₽"
+        },
+        "image": "../images/BD/business/car4.png"
+    },
+    {
+        "brand": "LEXUS",
+        "model": "GS250",
+        "year": 2016,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Business",
+        "price": {
+            "1_day": "от 7 000 ₽",
+            "3_days": "от 21 000 ₽"
+        },
+        "image": "../images/BD/business/car5.png"
+    },
+    {
+        "brand": "TOYOTA",
+        "model": "CAMRY SAFETY (70)",
+        "year": 2019,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Business",
+        "price": {
+            "1_day": "от 7 000 ₽",
+            "3_days": "от 21 000 ₽"
+        },
+        "image": "../images/BD/business/car6.png"
+    },
+    {
+        "brand": "HYUNDAI",
+        "model": "SONATA",
+        "year": 2021,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Business",
+        "price": {
+            "1_day": "от 7 000 ₽",
+            "3_days": "от 21 000 ₽"
+        },
+        "image": "../images/BD/business/car7.png"
+    },
+    {
+        "brand": "KIA",
+        "model": "OPTIMA",
+        "year": 2019,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Business",
+        "price": {
+            "1_day": "от 6 500 ₽",
+            "3_days": "от 19 500 ₽"
+        },
+        "image": "../images/BD/business/car8.png"
+    },
+    {
+        "brand": "MAZDA",
+        "model": "6 AWD",
+        "year": 2019,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Business",
+        "price": {
+            "1_day": "от 6 500 ₽",
+            "3_days": "от 19 500 ₽"
+        },
+        "image": "../images/BD/business/car9.png"
+    },
+    {
+        "brand": "GEELY",
+        "model": "ATLAS PRO",
+        "year": 2023,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Business",
+        "price": {
+            "1_day": "от 6 500 ₽",
+            "3_days": "от 19 500 ₽"
+        },
+        "image": "../images/BD/business/car10.png"
+    },
+    {
+        "brand": "TOYOTA",
+        "model": "CAMRY (55)",
+        "year": 2017,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Business",
+        "price": {
+            "1_day": "от 6 000 ₽",
+            "3_days": "от 18 000 ₽"
+        },
+        "image": "../images/BD/business/car11.png"
+    },
+    {
+        "brand": "KIA",
+        "model": "CERATO",
+        "year": 2021,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Business",
+        "price": {
+            "1_day": "от 5 500 ₽",
+            "3_days": "от 16 500 ₽"
+        },
+        "image": "../images/BD/business/car12.png"
+    }
+]

@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "67ebd63f3e58efa11b043713"
+  },
+  "userId": {
+    "$oid": "67ebd60e3e58efa11b043708"
+  },
+  "car": {
+    "brand": "VOLKSWAGEN",
+    "model": "POLO",
+    "year": 2019,
+    "transmission": "A",
+    "seats": 5,
+    "class": "Economy",
+    "price": {
+      "1_day": "от 3 500 ₽",
+      "3_days": "от 10 500 ₽"
+    },
+    "image": "../images/BD/econom/car6.png",
+    "_id": {
+      "$oid": "667d0aac4b777a935cc16810"
+    }
+  },
+  "days": 1,
+  "totalPrice": "от 3 500 ₽",
+  "date": {
+    "$date": "2025-04-01T12:04:15.817Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6823c8c5c2d3ba3fbbc4fc3b"
+  },
+  "userId": {
+    "$oid": "6684f3e786e23218c02e32cb"
+  },
+  "car": {
+    "brand": "RENAULT",
+    "model": "ARKANA",
+    "year": 2021,
+    "transmission": "A",
+    "seats": 5,
+    "class": "Economy",
+    "price": {
+      "1_day": "от 4 000 ₽",
+      "3_days": "от 12 000 ₽"
+    },
+    "image": "../images/BD/econom/car2.png",
+    "_id": {
+      "$oid": "667d0aac4b777a935cc1680c"
+    }
+  },
+  "days": 1,
+  "totalPrice": "от 4 000 ₽",
+  "date": {
+    "$date": "2025-05-13T22:33:41.860Z"
+  },
+  "__v": 0
+}]

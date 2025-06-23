@@ -1,0 +1,158 @@
+[
+    {
+        "brand": "RENAULT",
+        "model": "DUSTER",
+        "year": 2020,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Economy",
+        "price": {
+            "1_day": "от 4 000 ₽",
+            "3_days": "от 12 000 ₽"
+        },
+        "image": "../images/BD/econom/car1.png"
+    },
+    {
+        "brand": "RENAULT",
+        "model": "ARKANA",
+        "year": 2021,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Economy",
+        "price": {
+            "1_day": "от 4 000 ₽",
+            "3_days": "от 12 000 ₽"
+        },
+        "image": "path/to/arkana.jpg"
+    },
+    {
+        "brand": "VOLKSWAGEN",
+        "model": "POLO",
+        "year": 2021,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Economy",
+        "price": {
+            "1_day": "от 3 800 ₽",
+            "3_days": "от 11 400 ₽"
+        },
+        "image": "path/to/polo.jpg"
+    },
+    {
+        "brand": "HYUNDAI",
+        "model": "SOLARIS",
+        "year": 2021,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Economy",
+        "price": {
+            "1_day": "от 3 800 ₽",
+            "3_days": "от 11 400 ₽"
+        },
+        "image": "path/to/solaris.jpg"
+    },
+    {
+        "brand": "KIA",
+        "model": "RIO",
+        "year": 2019,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Economy",
+        "price": {
+            "1_day": "от 3 500 ₽",
+            "3_days": "от 10 500 ₽"
+        },
+        "image": "path/to/rio.jpg"
+    },
+    {
+        "brand": "VOLKSWAGEN",
+        "model": "POLO",
+        "year": 2019,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Economy",
+        "price": {
+            "1_day": "от 3 500 ₽",
+            "3_days": "от 10 500 ₽"
+        },
+        "image": "path/to/polo.jpg"
+    },
+    {
+        "brand": "HYUNDAI",
+        "model": "SOLARIS",
+        "year": 2018,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Economy",
+        "price": {
+            "1_day": "от 3 500 ₽",
+            "3_days": "от 10 500 ₽"
+        },
+        "image": "path/to/solaris.jpg"
+    },
+    {
+        "brand": "CHANGAN",
+        "model": "ALSVIN",
+        "year": 2023,
+        "transmission": "P",
+        "seats": 7,
+        "class": "Economy",
+        "price": {
+            "1_day": "от 3 500 ₽",
+            "3_days": "от 10 500 ₽"
+        },
+        "image": "path/to/alsvin.jpg"
+    },
+    {
+        "brand": "CHEVROLET",
+        "model": "NIVA",
+        "year": 2019,
+        "transmission": "M",
+        "seats": 5,
+        "class": "Economy",
+        "price": {
+            "1_day": "от 3 000 ₽",
+            "3_days": "от 9 000 ₽"
+        },
+        "image": "path/to/niva.jpg"
+    },
+    {
+        "brand": "LADA",
+        "model": "LARGUS",
+        "year": 2019,
+        "transmission": "A",
+        "seats": 5,
+        "class": "Economy",
+        "price": {
+            "1_day": "от 3 000 ₽",
+            "3_days": "от 9 000 ₽"
+        },
+        "image": "path/to/largus.jpg"
+    },
+    {
+        "brand": "LADA",
+        "model": "VESTA",
+        "year": 2021,
+        "transmission": "M",
+        "seats": 5,
+        "class": "Economy",
+        "price": {
+            "1_day": "от 3 000 ₽",
+            "3_days": "от 9 000 ₽"
+        },
+        "image": "path/to/vesta.jpg"
+    },
+    {
+        "brand": "LADA",
+        "model": "VESTA CROSS",
+        "year": 2019,
+        "transmission": "M",
+        "seats": 7,
+        "class": "Economy",
+        "price": {
+            "1_day": "от 2 500 ₽",
+            "3_days": "от 7 500 ₽"
+        },
+        "image": "path/to/vesta_cross.jpg"
+    }
+]

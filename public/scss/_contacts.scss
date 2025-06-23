@@ -1,0 +1,57 @@
+//Контакты
+.contacts{
+
+   &__wrap{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+
+   &__form{
+      display: flex;
+   }
+
+    &__form-wrap{
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__form-input{
+      padding: 15px;
+      color: #000000;
+      border: 1px #0066FF solid;
+    }
+
+    &__form-input:focus{
+      outline: 2px #fff solid;
+   }
+
+    &__form-textarea{
+      width: 100%;
+      max-width: 580px;
+      height: 291px;
+      padding: 15px;
+      resize: none;
+      color: #000000;
+      border: 1px #0066FF solid;
+   }
+
+    &__form-textarea:focus{
+      outline: 2px #fff solid;
+   }
+
+    &__form-btn{
+      background: #000;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 20px;
+      margin-top: 20px;
+      transition: all .5s;
+      &:hover{
+         background: #ffffff;
+         color: #000000;
+      }
+   }
+}

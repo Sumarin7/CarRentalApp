@@ -1,0 +1,337 @@
+/* Основные стили */
+.main-content {
+    padding: 20px 0;
+}
+
+.profile {
+    margin-bottom: 40px;
+}
+
+.profile h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.profile-picture {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-details label {
+    display: block;
+    margin-top: 10px;
+}
+
+.profile-details input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.profile-details button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #5a5a5a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Styles for profile and history sections */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile, .history {
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.profile h1, .history h2 {
+    text-align: center;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-picture {
+    position: relative;
+}
+
+#profileImage{
+    width: 30%;
+    margin-bottom: 130px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.avatar-options {
+    display: none;
+    position: absolute;
+    top: 450px;
+    left: 40%;
+    transform: translateX(-50%);
+    padding: 10px;
+    height: 100px;
+}
+
+.profile-details {
+    width: 350px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: none;
+}
+
+.profile-details input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 14px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
+    border-radius: 0px;
+}
+
+.profile-details button {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: #10434E;
+    opacity: 50%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.profile-details button[type="button"] {
+    margin-bottom: 10px;
+}
+
+.history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.history-car {
+    display: flex;
+    align-items: center;
+}
+
+.history-car img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.history-details p {
+    margin: 0;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Avatar Canvas */
+.canvas {
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+}
+
+/* Hidden link for new image */
+.a_hidden {
+    display: none;
+}
+
+/* История бронирования */
+.history {
+    margin-bottom: 40px;
+}
+
+.history h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.history-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.history-item .timer {
+    font-weight: bold;
+    color: green;
+}
+.history-item .qrcode {
+    margin-top:10px;
+}
+#qrcode img {
+    width: 150px;
+    height:150px;
+}
+
+.history-car {
+    display: flex;
+    align-items: center;
+}
+
+.history-car img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.history-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.history-details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+#resizeAvatarBtn, #changeAvatarBtn{
+    border: none;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #10434E;
+    opacity: 50%;
+    width: 100px;
+    height: 25px;
+}
+#changeAvatarBtn{
+    position: relative;
+    right: 50%;
+    top: 35%;
+}
+
+
+/* Map Styles */
+#map {
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* QR Code Styles */
+.qr-code-display {
+    text-align: center;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.qr-code-display img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.qr-code-display button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #10434E;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Profile Link Styles */
+#authLink.profile-link {
+    color: #10434E;
+    font-weight: bold;
+}

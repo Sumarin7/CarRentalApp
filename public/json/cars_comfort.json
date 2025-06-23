@@ -1,0 +1,158 @@
+[
+  {
+    "brand": "OPEL",
+    "model": "ZAFIRA",
+    "year": 2020,
+    "transmission": "А",
+    "seats": 7,
+    "class": "Comfort",
+    "price": {
+      "1_day": "от 11 000 ₽",
+      "3_days": "от 33 000 ₽"
+    },
+    "image": "../images/BD/comfort/car1.png"
+  },
+  {
+    "brand": "MITSUBISHI",
+    "model": "PAJERO SPORT",
+    "year": 2019,
+    "transmission": "А",
+    "seats": 7,
+    "class": "Comfort",
+    "price": {
+      "1_day": "от 10 000 ₽",
+      "3_days": "от 30 000 ₽"
+    },
+    "image": "../images/BD/comfort/car2.png"
+  },
+  {
+    "brand": "HYUNDAI",
+    "model": "STAREX",
+    "year": 2018,
+    "transmission": "А",
+    "seats": 7,
+    "class": "Comfort",
+    "price": {
+      "1_day": "от 10 000 ₽",
+      "3_days": "от 30 000 ₽"
+    },
+    "image": "../images/BD/comfort/car3.png"
+  },
+  {
+    "brand": "TOYOTA",
+    "model": "RAV4 NEW",
+    "year": 2020,
+    "transmission": "А",
+    "seats": 5,
+    "class": "Comfort",
+    "price": {
+      "1_day": "от 8 000 ₽",
+      "3_days": "от 24 000 ₽"
+    },
+    "image": "../images/BD/comfort/car4.png"
+  },
+  {
+    "brand": "TOYOTA",
+    "model": "HILUX",
+    "year": 2018,
+    "transmission": "А",
+    "seats": 5,
+    "class": "Comfort",
+    "price": {
+      "1_day": "от 7 000 ₽",
+      "3_days": "от 21 000 ₽"
+    },
+    "image": "../images/BD/comfort/car5.png"
+  },
+  {
+    "brand": "MITSUBISHI",
+    "model": "OUTLANDER",
+    "year": 2019,
+    "transmission": "А",
+    "seats": 5,
+    "class": "Comfort",
+    "price": {
+      "1_day": "от 7 000 ₽",
+      "3_days": "от 21 000 ₽"
+    },
+    "image": "../images/BD/comfort/car6.png"
+  },
+  {
+    "brand": "KIA",
+    "model": "SPORTAGE",
+    "year": 2021,
+    "transmission": "А",
+    "seats": 5,
+    "class": "Comfort",
+    "price": {
+      "1_day": "от 7 000 ₽",
+      "3_days": "от 21 000 ₽"
+    },
+    "image": "../images/BD/comfort/car7.png"
+  },
+  {
+    "brand": "SUBARU",
+    "model": "FORESTER",
+    "year": 2018,
+    "transmission": "А",
+    "seats": 5,
+    "class": "Comfort",
+    "price": {
+      "1_day": "от 6 000 ₽",
+      "3_days": "от 18 000 ₽"
+    },
+    "image": "../images/BD/comfort/car8.png"
+  },
+  {
+    "brand": "VOLKSWAGEN",
+    "model": "TIGUAN",
+    "year": 2018,
+    "transmission": "А",
+    "seats": 5,
+    "class": "Comfort",
+    "price": {
+      "1_day": "от 6 000 ₽",
+      "3_days": "от 18 000 ₽"
+    },
+    "image": "../images/BD/comfort/car9.png"
+  },
+  {
+    "brand": "SKODA",
+    "model": "OCTAVIA 1.8 TURBO",
+    "year": 2019,
+    "transmission": "А",
+    "seats": 5,
+    "class": "Comfort",
+    "price": {
+      "1_day": "от 5 500 ₽",
+      "3_days": "от 16 500 ₽"
+    },
+    "image": "../images/BD/comfort/car10.png"
+  },
+  {
+    "brand": "HYUNDAI",
+    "model": "CRETA",
+    "year": 2020,
+    "transmission": "А",
+    "seats": 5,
+    "class": "Comfort",
+    "price": {
+      "1_day": "от 5 000 ₽",
+      "3_days": "от 15 000 ₽"
+    },
+    "image": "../images/BD/comfort/car11.png"
+  },
+  {
+    "brand": "KIA",
+    "model": "CEED",
+    "year": 2022,
+    "transmission": "А",
+    "seats": 5,
+    "class": "Comfort",
+    "price": {
+      "1_day": "от 5 000 ₽",
+      "3_days": "от 15 000 ₽"
+    },
+    "image": "../images/BD/comfort/car12.png"
+  }
+]

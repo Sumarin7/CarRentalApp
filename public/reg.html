@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Регистрация</title>
+</head>
+
+<body>
+    <header class="header header__main">
+        <div class="container">
+            <div class="header__wrap">
+
+                <a class="header__logo" href="index.html">
+                    <picture class="top__img">
+                        <source srcset="images/icons/mobile-logo.png" media="(max-width:540px)">
+                        <source srcset="images/icons/logo.svg" media="(max-width:730px)">
+                        <img src="images/icons/logo.svg" alt="#">
+                    </picture>
+                </a>
+
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__list-item">
+                            <a class="header__item-link" href="rent.html">RESERVATION</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a class="header__item-link" href="#footer">CONTACTS</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a class="header__item-link" href="login.html">LOG IN</a>
+                        </li>
+                    </ul>
+                    <!-- /.header__list -->
+                </nav>
+                <!-- /.header__nav -->
+
+                <button class="header__burger-btn">
+                    <img class="burger-btn" src="images/icons/burger-btn.png" alt="#">
+                </button>
+            </div>
+            <!-- /.header__wrap -->
+
+            <div class="header__burger-wrap">
+                <div class="header__burger-menu">
+
+                    <a class="header__logo" href="index.html">
+                        <picture class="top__img">
+                            <source srcset="images/icons/mobile-logo.png" media="(max-width:540px)">
+                            <source srcset="images/icons/logo.svg" media="(max-width:730px)">
+                            <img src="images/icons/logo.svg" alt="#">
+                        </picture>
+                    </a>
+
+                    <nav class="header__burger-nav">
+                        <ul class="header__burger-list">
+                            <li class="header__list-item">
+                                <a class="header__item-link" href="rent.html">RESERVATION</a>
+                            </li>
+                            <li class="header__list-item">
+                                <a class="header__item-link" href="#footer">CONTACTS</a>
+                            </li>
+<li class="header__list-item">
+    <a class="header__item-link" href="#" id="authLink">LOG IN</a>
+</li>
+                            <!-- /.header__list -->
+
+                            <button class="header__burger-btn-close">
+                                <img class="burger-btn" src="images/icons/btn-close.png" alt="#">
+                            </button>
+                    </nav>
+                    <!-- /.header__nav -->
+                </div>
+                <!-- /.header__burger-menu -->
+            </div>
+            <!-- /.header__burger-wrap -->
+        </div>
+        <!-- /.container -->
+    </header>
+    <!-- /.header -->
+
+    <main class="main">
+        <section class="top page-section" id="top">
+            <div class="container">
+                <div class="top__wrap">
+                    <h1 class="top__title">
+                        Leasing From
+                        AutoAlyans
+                    </h1>
+                </div>
+                <!-- /.top__wrap -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.top -->
+
+        <div class="reg">
+            <div class="reg__wrap">
+                <div class="reg__title">REGISTRATION</div>
+                <!-- /.reg__title -->
+                <form class="reg__form" action="/register" method="POST">
+                    <input class="reg__input" name="name" placeholder="name" type="text" required>
+                    <input class="reg__input" name="surname" placeholder="surname" type="text" required>
+                    <input class="reg__input" name="login" placeholder="login" type="text" required>
+                    <input class="reg__input" name="email" placeholder="e-mail" type="email" required>
+                    <input class="reg__input" name="number" placeholder="number" type="tel" required>
+                    <input class="reg__input" name="password" placeholder="password" type="password" required>
+                    <button class="reg__btn" type="submit">REGISTER</button>
+                </form>
+                <!-- /.reg__form -->
+            </div>
+            <!-- /.reg__wrap -->
+        </div>
+        <!-- /.reg -->
+    </main>
+    <!-- /.main -->
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

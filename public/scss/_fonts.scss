@@ -1,0 +1,26 @@
+//шрифты
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+@mixin  bold {
+   font-family: Inter;
+   font-weight: 700;
+}
+
+@mixin regular {
+   font-family: Inter;
+   font-weight: 400;
+}
+
+@mixin medium {
+   font-family: Inter;
+   font-weight: 500;
+}
+
+@mixin light {
+   font-family: Inter;
+   font-weight: 300;
+}
+
+
+
+

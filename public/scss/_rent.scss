@@ -1,0 +1,196 @@
+//Аренда
+.rent{
+
+   &__wrap{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+   }
+
+   &__class{
+      margin: 0px 0 87px 0;
+      display: flex;
+      gap: 100px
+   }
+
+   &__class-btn{
+      @include bold;
+      font-size: 24px;
+      background: transparent;
+      color: #000;
+      border: 0;
+      transition: 0.3s;
+      &:hover{
+         color: #5493A0;
+      }
+   }
+
+   &__items{
+      @include regular;
+      position: relative;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 100px 25px;
+   }
+
+   &__item{
+      max-width: 270px;
+      width: 100%;
+      display: flex;
+      text-align: left;
+      flex-direction: column;
+      border: 2px #5493A0 solid;
+      gap:20px;
+      padding-bottom: 12px;
+   }
+
+   &__item-info{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      align-items: center;
+      text-transform: uppercase;
+      padding-left: 20px;
+      
+   }
+
+   &__item-name{
+      text-transform: uppercase;
+      padding-left: 20px;
+   }
+
+
+   &__item-price{
+      margin-top: 30px;
+      position: relative;
+      display: flex;
+   }
+
+   &__item-block{
+      padding-left: 20px;
+      display: flex;
+      gap:50px ;
+   }
+
+   &__item-block span{
+      position: absolute;
+      display: block;
+      top: -35px;
+   }
+
+   &__item-btn{
+      @include bold;
+      font-size: 9px;
+      margin: 0 20px ;
+      background: #5493A0;
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 50px ;
+      padding: 7px 21px;
+      border:0;
+      transition:all 0.5s;
+      &:hover{
+         background: rgba(100,130,157,.7);
+         color: #fff;
+      }
+   }
+}
+
+.search {
+   width: 100%;
+   max-width: 1200px;
+   margin-bottom: 80px; 
+
+   &__wrapper{
+   display: flex;
+   align-items: center;
+   border: 2px solid #818E90;
+   height: 50px;
+   width: 100%;
+   max-width: 1200px;
+   border-radius: 50px;
+   padding: 13px 0px 13px 23px;
+   
+   }
+
+   &__wrapper-input {
+      @include bold;
+      width: 100%;
+      height: 100%;
+      padding: 0 30px 0px 11px;
+      border: 0;
+      font-size: 14px;
+      color: #818E90;
+      border-radius: 50px;
+      line-height: 18px;
+      outline: none;
+    }
+
+   &__wrapper-btn { 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0px 20px 0px 20px;
+      height: 50px;
+      border-radius: 50px;
+      background: transparent;
+      border: 0px;
+      transition: all 0.3s;
+   }
+   &__wrapper-btn:hover{
+      transform: scale(1.2);
+   }
+ }
+
+//media (550)
+@media screen and (max-width: 600px)  {
+   .title{
+      margin: 30px  0px 15px 0;
+      font-size: 36px;
+   }
+   .rent{
+     &__class {
+      margin: 0px 0 20px 0;
+      display: flex;
+      gap: 20px;
+   }
+     
+     &__class-btn {
+      font-size: 16px;
+   }
+
+   &__items{
+      gap: 20px 10px;
+   }
+
+     &__item {
+      max-width: 600px; 
+   }
+}
+
+   .search {
+      margin-bottom: 50px;
+   } 
+}
+
+@media screen and (max-width: 300px)  {
+   .rent{
+      &__class {
+         gap: 0px;
+         display: flex;
+         flex-wrap: wrap;
+      }
+
+     &__class-btn {
+         font-size: 15px;
+      }
+
+   }
+}
+
+

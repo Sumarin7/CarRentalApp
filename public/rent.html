@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/rent_modal.css">
+    <title>Аренда</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+                <a class="header__logo" href="index.html">
+                    <picture class="top__img">
+                        <source srcset="images/icons/mobile-logo.png" media="(max-width:540px)">
+                        <source srcset="images/icons/logo.svg" media="(max-width:730px)">
+                        <img src="images/icons/logo.svg" alt="#">
+                    </picture>
+                </a>
+
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__list-item">
+                            <a class="header__item-link" href="/rent">RESERVATION</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a class="header__item-link" href="#footer">CONTACTS</a>
+                        </li>
+<li class="header__list-item">
+    <a class="header__item-link" id="authLink" href="login.html">LOG IN</a>
+</li>
+                    </ul>
+                </nav>
+
+                <button class="header__burger-btn">
+                    <img class="burger-btn" src="images/icons/burger-btn.png" alt="#">
+                </button>
+            </div>
+
+            <div class="header__burger-wrap">
+                <div class="header__burger-menu">
+                    <a class="header__logo" href="index.html">
+                        <picture class="top__img">
+                            <source srcset="images/icons/mobile-logo.png" media="(max-width:540px)">
+                            <source srcset="images/icons/logo.svg" media="(max-width:730px)">
+                            <img src="images/icons/logo.svg" alt="#">
+                        </picture>
+                    </a>
+
+                    <nav class="header__burger-nav">
+                        <ul class="header__burger-list">
+                            <li class="header__list-item">
+                                <a class="header__item-link" href="/rent">RESERVATION</a>
+                            </li>
+                            <li class="header__list-item">
+                                <a class="header__item-link" href="#footer">CONTACTS</a>
+                            </li>
+<li class="header__list-item">
+    <a class="header__item-link" id="authLink" href="login.html">LOG IN</a>
+</li>
+                        </ul>
+
+                        <button class="header__burger-btn-close">
+                            <img class="burger-btn" src="images/icons/btn-close.png" alt="#">
+                        </button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="rent">
+            <div class="container">
+                <div class="rent__wrap">
+                    <h2 class="rent__title title">Choose your car</h2>
+                    <div class="rent__class">
+                        <button class="rent__class-btn" onclick="changeCarClass('Economy')">Economy</button>
+                        <button class="rent__class-btn" onclick="changeCarClass('Comfort')">Comfort</button>
+                        <button class="rent__class-btn" onclick="changeCarClass('Business')">Business</button>
+                    </div>
+
+                    <div class="search">
+                        <div class="search__wrapper">
+                            <input id="search-input" class="search__wrapper-input" placeholder="Search" type="text" />
+                            <button class="search__wrapper-btn" onclick="performSearch()">
+                                <img src="images/icons/search.svg" alt="search">
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="car-container" class="rent__items">
+                        <!-- Динамически загружаемые карточки автомобилей -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Модальное окно -->
+    <div id="reservation-modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="car-info">
+                <!-- Информация о машине будет загружена динамически -->
+            </div>
+            <h2>Выберите вариант бронирования</h2>
+            <button onclick="selectDays(1)">1 день</button>
+            <button onclick="selectDays(3)">3 дня</button>
+            <div id="selected-days-info">
+                <!-- Информация о выбранных днях и цене -->
+            </div>
+            <button onclick="reserveCar()">Забронировать</button>
+        </div>
+    </div>
+
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__wrap">
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__item-name">Products</li>
+                        <li class="footer__list-item">
+                            <a class="footer__item-link" href="#">Used</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__item-link" href="#">New</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__item-link" href="#">Sell your car</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <li class="footer__item-name">Resources</li>
+                        <li class="footer__list-item">
+                            <a class="footer__item-link" href="#"> Blog</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__item-link" href="#">FAQ</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__item-link" href="#">Contact us</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <li class="footer__item-name">Work With TrueCar</li>
+                        <li class="footer__list-item">
+                            <a class="footer__item-link" href="#">Dealers</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__item-link" href="#">Partners</a>
+                        </li>
+                    </ul>
+
+                    <ul class="footer__list">
+                        <li class="footer__item-name">About</li>
+                        <li class="footer__list-item">
+                            <a class="footer__item-link" href="#">About us</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__item-link" href="#">Team</a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a class="footer__item-link" href="#">Careers</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="footer__info">
+                    <div class="footer__links">
+                        <a class="footer__link" href="#">
+                            <img class="footer__link-img" src="images/icons/apple-link.png" alt="#">
+                        </a>
+
+                        <a class="footer__link" href="#">
+                            <img class="footer__link-img" src="images/icons/google-link.png" alt="#">
+                        </a>
+                    </div>
+
+                    <div class="footer__texts">
+                        <p class="footer__text">
+                            For questions about the TrueCar Auto Buying Service please call <a class="text-link" href="tel:18888783227">1-888-878-3227</a>. <br>
+                            Certified Dealers are contractually obligated by TrueCar to meet certain customer service
+                            requirements and complete the TrueCar Dealer Certification Program.
+                        </p>
+                        <p class="footer__text">
+                            TrueCar does not broker, sell, or lease motor vehicles. Unless otherwise noted, all vehicles shown on
+                            this website are offered for sale by licensed motor vehicle dealers. All vehicles are subject to
+                            prior sale. By accessing this website, you agree to the TrueCar Terms of Service and Privacy Policy.
+                        </p>
+                    </div>
+
+                    <div class="footer__cookies">
+                        <a class="footer__cookie-link" href="#">Terms of Service</a>
+                        <a class="footer__cookie-link" href="#">Privacy Policy</a>
+                        <a class="footer__cookie-link" href="#">Do Not Sell My Personal Information</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/rent.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('/api/check-auth')
+            .then(response => response.json())
+            .then(data => {
+                if (data.authenticated) {
+                    document.getElementById('authLink').textContent = 'PROFILE';
+                    document.getElementById('authLink').href = '/user';
+                }
+            });
+    });
+</script>
+</body>
+
+</html>

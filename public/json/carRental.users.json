@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "6684f3e786e23218c02e32cb"
+  },
+  "name": "Вячеслав",
+  "surname": "Smirnov",
+  "login": "sur125",
+  "password": "12345",
+  "email": "smirnov125@yandex.ru",
+  "number": "+7 992 166 73-22",
+  "__v": 0,
+  "avatar": "/images/BD/uploads/1720730655756.png"
+},
+{
+  "_id": {
+    "$oid": "66904058a2971ce8d2449012"
+  },
+  "name": "Анастасия",
+  "surname": "Ермакова",
+  "login": "Ermakova",
+  "password": "12345",
+  "email": "Ermakova@yandex.tu",
+  "number": "+7 992 166 73-22",
+  "__v": 0,
+  "avatar": "/images/BD/uploads/1720730591933.png"
+},
+{
+  "_id": {
+    "$oid": "67ebd60e3e58efa11b043708"
+  },
+  "name": "dima",
+  "surname": "safro",
+  "login": "refindor",
+  "password": "123456",
+  "email": "safro.refindor@mail.ru",
+  "number": "+7 992 166 73-22",
+  "__v": 0,
+  "avatar": "/images/BD/uploads/1743509041307.png"
+}]

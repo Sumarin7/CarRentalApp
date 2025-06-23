@@ -1,0 +1,308 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000;
+    color: #fff;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header__logo img {
+    width: 150px; /* Увеличен размер логотипа */
+    height: auto;
+}
+
+.logout {
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    margin-left: auto; /* Выровнять по правому краю */
+}
+
+.admin-container {
+    padding: 20px;
+}
+
+.search-add-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#search-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+#search-button {
+    background-color: transparent;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#search-button img {
+    width: 20px;
+    height: 20px;
+}
+
+#add-button {
+    margin-left: 20px;
+    padding: 10px 50px;
+    font-size: 26px;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    background-color: #5493A0;
+    color: #FFFFFF;
+}
+
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.car-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.car-image {
+    width: 20%;
+    height: 95%;
+    margin-right: 10px;
+}
+
+.car-details {
+    flex-grow: 1;
+}
+
+.car-actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-button,
+.remove-button {
+    padding: 10px 30px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.edit-button {
+    background-color: #5493A0;
+    color: #fff;
+}
+
+.remove-button {
+    background-color: #0C4551;
+    color: #fff;
+}
+
+/* Стили для модальных окон */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.modal-content form input,
+.modal-content form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal-content form button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #5493A0;
+    color: #fff;
+}
+
+/* Медиа-запросы для мобильных устройств */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 20px;
+    }
+
+    .header__logo img {
+        width: 100px; /* Уменьшить размер логотипа */
+    }
+
+    .logout {
+        font-size: 14px;
+        margin-left: auto; /* Выровнять по правому краю */
+    }
+
+    .search-add-container {
+        flex-direction: column;
+    }
+
+    #add-button {
+        margin-left: 0;
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 25px;
+    }
+
+    .car-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .car-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .car-actions {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .edit-button,
+    .remove-button {
+        padding: 10px;
+        margin: 0;
+        width: 48%;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header__wrap {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__logo img {
+        width: 60px; /* Еще меньше размер логотипа */
+    }
+
+    .logout {
+        margin-left: auto; /* Выровнять по правому краю */
+        margin-top: 10px;
+    }
+
+    #search-input {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    #add-button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .car-card {
+        padding: 5px;
+    }
+
+    .car-actions {
+        flex-direction: column;
+    }
+
+    .edit-button,
+    .remove-button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .modal-content {
+        width: 95%;
+    }
+}
